@@ -10,11 +10,11 @@ import org.junit.runners.Parameterized;
 public class AccountTest {
 
     private final String name;
-    private final boolean result;
+    private final boolean expected;
 
-    public AccountTest(String name, boolean result) {
+    public AccountTest(String name, boolean expected) {
         this.name = name;
-        this.result = result;
+        this.expected = expected;
     }
 
     @Parameterized.Parameters
@@ -28,6 +28,7 @@ public class AccountTest {
                 {"Тимоти Ша ламе", false},
                 {" ТимотиШаламе", false},
                 {"ТимотиШаламе ", false},
+                {"ТимотиШаламе", false}
         };
     }
 
@@ -36,7 +37,8 @@ public class AccountTest {
 
     public void validatingAName() {
         Account account = new Account(name);
-        Assert.assertEquals(result, account.checkNameToEmboss());
+        boolean actual = account.checkNameToEmboss();
+        Assert.assertEquals(expected, actual);
 
     }
 }
