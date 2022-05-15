@@ -1,6 +1,7 @@
 package ru.praktikum.sprint4;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,9 +33,9 @@ public class AccountTest {
         };
     }
 
+    @DisplayName("Valid name check")
     @Description("Проверяем, что метод возвращает корректный результат")
     @Test
-
     public void validatingAName() {
         Account account = new Account(name);
         boolean actual = account.checkNameToEmboss();
