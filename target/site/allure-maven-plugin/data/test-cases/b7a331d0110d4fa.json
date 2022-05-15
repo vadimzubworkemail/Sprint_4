@@ -1,0 +1,58 @@
+{
+  "uid" : "b7a331d0110d4fa",
+  "name" : "Valid name check",
+  "fullName" : "ru.praktikum.sprint4.AccountTest.validatingAName[2]",
+  "historyId" : "b1e501e7e99b733611c5ba3987d0711e",
+  "time" : {
+    "start" : 1652607253469,
+    "stop" : 1652607253470,
+    "duration" : 1
+  },
+  "description" : "Проверяем, что метод возвращает корректный результат",
+  "descriptionHtml" : "<p>Проверяем, что метод возвращает корректный результат</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum.sprint4"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum.sprint4.AccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validatingAName[2]"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum.sprint4.AccountTest"
+  }, {
+    "name" : "host",
+    "value" : "AdminPC"
+  }, {
+    "name" : "thread",
+    "value" : "8268@AdminPC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7a331d0110d4fa.json",
+  "parameterValues" : [ ]
+}
